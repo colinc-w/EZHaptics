@@ -1,0 +1,32 @@
+{
+  "name": "com.colincw.ezhaptics",
+  "displayName": "EZHaptics",
+  "version": "1.0.0",
+  "description": "Simple unified Unity haptics for iOS and Android.",
+  "keywords": [
+    "Haptics",
+    "Vibration",
+    "Vibrate",
+    "Mobile",
+    "iOS",
+    "Android"
+  ],
+  "category": "UI",
+  "files": [
+    "/LICENSE",
+    "/LICENSE.meta",
+    "/README.md",
+    "/README.md.meta",
+    "/EZHaptics.asmdef",
+    "/EZHaptics.asmdef.meta",
+    "/package.json",
+    "/package.json.meta",
+    "/Runtime",
+    "/Runtime.meta"
+  ],
+  "author": {
+    "name": "Colin Cody-Waters",
+    "email": "colincodywaters@gmail.com",
+    "url": "https://github.com/colinc-w/EZHaptics"
+  }
+}
