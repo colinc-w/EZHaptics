@@ -9,17 +9,18 @@ The available haptic responses are: light, medium, heavy, rigid, soft, success, 
 https://developer.apple.com/design/human-interface-guidelines/playing-haptics#Notification
 
 #### Implementation is as easy as initializing the HapticPlatform and calling the desired haptic feedback.
-Example image: on collision haptics.triggermediumimpact
+![](triggerhaptic.jpg)
+
 
 #### The included EZHaptics.cs gives you quick access to haptics using Unity Events.
-Example image: Haptics assigned via Unity Event
+![](unityeventhaptic.jpg)
 
 ---
 ## How to Install
 
 Open package manager in Unity under Window > Package Manager. Click the [+] button in the upper left and select "Install package from git URL..." Paste the following link: https://github.com/colinc-w/EZHaptics.git 
 
-Example image: Install via git
+![](installviagit.jpg)
 
 ---
 ## How to use
