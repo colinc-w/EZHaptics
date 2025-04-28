@@ -26,12 +26,15 @@ Open package manager in Unity under Window > Package Manager. Click the [+] butt
 ## How to use
 
 ### In Unity
+Call ```HapticPlatform.Initialize();``` somewhere or attach the EZHaptics.cs MonoBehaviour to any active object in the scene. Then you can call any of the haptics, e.g. ```Haptics.TriggerLightImpact();``` anywhere you'd like. Alternately you can use EZHaptics.cs to call Unity Events like in the example scene.
+
 Check the included EZHapticsExample scene to see a simple implementation. This can be built to device to test the various haptic patterns available. 
 
 ### On Device
 
 #### iOS
 Once you've built your project from Unity, open it in XCode. You'll need to ensure that the CoreHaptics Framework is included in your build. Select your project, select your desired build target, under "General" scroll down to "Frameworks, Libraries and Embedded Content". Click the [+] and search for "Haptics". You should see "CoreHaptics.framework". Add this then build as usual. 
+![](xcodecorehaptics.jpg)
 
 #### Android
 For Android there is no further work required. Simply build and install and you're good to go.
@@ -50,3 +53,4 @@ HapticPlatform - This (in conjunction with the plugins and frameworks) handles c
 
 ### EZHapticsExample Scene
 This scene demonstrates a simple implementation of each haptic pattern available as well a couple UI elements with haptics implemented. Feel free to build this to device so you can feel what each option does. 
+![](examplescene.jpg)
