@@ -22,7 +22,9 @@
     "/package.json",
     "/package.json.meta",
     "/Runtime",
-    "/Runtime.meta"
+    "/Runtime.meta",
+    "/Plugins",
+    "/Plugins.meta"
   ],
   "author": {
     "name": "Colin Cody-Waters",
